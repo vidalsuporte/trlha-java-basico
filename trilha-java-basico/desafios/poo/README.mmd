@@ -1,0 +1,25 @@
+classDiagram
+    Iphone<--AparelhoTelefonico  
+    Iphone<--NavegadorInternet
+   Iphone<--ReprodutorMusical
+   class Iphone{
+    
+}
+    class ReprodutorMusical{
+      +selecionarMusica(String musica)
+      +tocar()
+      +pausar()
+    }
+    class NavegadorInternet{
+    +exibePagina(String url)
+    +atualizaPagina()
+    +aicionaNovaAba()
+    }
+    class AparelhoTelefonico{
+      +ligar(String numero)
+      +atender()
+      +iniciarCorreioVoz()
+    }
+
+
+
